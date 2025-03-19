@@ -1,0 +1,15 @@
+[package]
+name = "bfasc"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule= "0xae179cdb7ff15500584f3630a392f4d09064fa65fcfe0e95211c170bf3541883"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
